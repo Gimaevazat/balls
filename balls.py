@@ -40,6 +40,7 @@ def run(event):
 
 
 root = Tk()
+root.resizable(width=False, height=False)
 root.config(cursor="hand1")
 root.bind('<Button-1>', mouse_click)
 root.bind('<Motion>', run)
